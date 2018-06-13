@@ -1,0 +1,16 @@
+﻿Sauce: Alfredo Pasta : FreshSpaghetti
+GetIngredient: Cream place: Refrigarator
+Sauce: Bolognese Pasta : FreshSpaghetti
+GetIngredient: Tomato place: Garden
+Sauce: Marinara Pasta : FreshSpaghetti
+GetIngredient: Tomato place: Garden
+Sauce: Pesto Pasta : FreshSpaghetti
+GetIngredient: Basil place: Garden
+Sauce: Alfredo Pasta : Ravioly
+GetIngredient: Cream place: Refrigarator
+Sauce: Bolognese Pasta : Ravioly
+GetIngredient: Tomato place: Garden
+Sauce: Marinara Pasta : Ravioly
+GetIngredient: Tomato place: Garden
+Sauce: Pesto Pasta : Ravioly
+GetPlace: Ravioly place: Freezer

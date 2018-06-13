@@ -1,0 +1,11 @@
+﻿1. The first thing is to push the implementation of the GetIngredient and GetPasta out
+	Since there's no output yet, it's risky, but low risk.
+	Create an interface IDispenser with the same interface.
+	Then move the implementation a Dispenser class.
+	Inject it through the PastaMaker, and now we're working against an interface.
+
+	Note though, that with complex implementation, we might want to go with a derived class, not an interface. Just like this implementation, we report than continue with the implementation.
+	In other cases, we may want to mock something to return.
+
+2. Create a MockDispenser class in the test code. It implements the IDispenser interface.
+	Only, its implementation is writing to the console what it's passed.

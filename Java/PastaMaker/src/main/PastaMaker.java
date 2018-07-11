@@ -1,4 +1,4 @@
-package refactoring.pastamaker;
+package pastamaker;
 
 import java.util.ArrayList;
 import java.util.List;

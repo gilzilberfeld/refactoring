@@ -1,4 +1,4 @@
-package refactoring.pastamaker;
+package pastamaker;
 
 public enum Place {
     Refrigarator,

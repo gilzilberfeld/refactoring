@@ -1,4 +1,4 @@
-package refactoring.pastamaker;
+package pastamaker;
 
 public class Ingredient {
 	boolean isPasta;

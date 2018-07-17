@@ -1,4 +1,4 @@
-﻿namespace approvaltestRefactoring
+﻿namespace RefactoringKungFu
 {
     public class Ingredient
     {

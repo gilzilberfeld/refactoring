@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace approvaltestRefactoring
+namespace RefactoringKungFu
 {
     public class PastaMaker
     {
-        IDispenser dispenser;
-
-        public PastaMaker(IDispenser dispenser)
-        {
-            this.dispenser = dispenser;
-        }
-
         public void Cook(SauceType sauce, PastaType pastaType)
         {
             List<Ingredient> ingredients = new List<Ingredient>();
@@ -63,11 +56,11 @@ namespace approvaltestRefactoring
         // Directed implementation outwards.
         private Ingredient GetIngredient(IngredientTypes ingredient, Places place)
         {
-            return dispenser.GetIngredient(ingredient, place);
+            return null;
         }
         private Ingredient GetPasta(PastaType pasta, Places place)
         {
-            return dispenser.GetPasta(pasta, place);
+            return null;
         }
 
         private void Fill(List<Ingredient> sauceIngredients) { }

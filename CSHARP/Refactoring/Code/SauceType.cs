@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System.Threading.Tasks;
 
-namespace approvaltestRefactoring
+namespace RefactoringKungFu
 {
     public enum SauceType
     {

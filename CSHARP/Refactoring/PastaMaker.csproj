@@ -58,15 +58,12 @@
     <Reference Include="System.Transactions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\Dispenser.cs" />
     <Compile Include="Code\Ingredient.cs" />
     <Compile Include="Code\IngredientTypes.cs" />
-    <Compile Include="Code\IDispenser.cs" />
     <Compile Include="Code\PastaMaker.cs" />
     <Compile Include="Code\PastaType.cs" />
     <Compile Include="Code\Places.cs" />
     <Compile Include="Code\SauceType.cs" />
-    <Compile Include="Tests\ReportingDispenser.cs" />
     <Compile Include="Tests\Dish.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

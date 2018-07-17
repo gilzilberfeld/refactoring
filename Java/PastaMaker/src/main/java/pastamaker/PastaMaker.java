@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PastaMaker {
+	
+	Dispenser dispenser;
+	
+	public PastaMaker(Dispenser dispenser) {
+		this.dispenser = dispenser;
+	}
+	
     public void cook(SauceType sauce, PastaType pastaType)
     {
         List<Ingredient> ingredients = new ArrayList<Ingredient>();

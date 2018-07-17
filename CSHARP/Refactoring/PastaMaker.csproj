@@ -7,8 +7,8 @@
     <ProjectGuid>{5AB877EB-B8B4-45A0-9FD7-8F0507C7C523}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>approvaltestRefactoring</RootNamespace>
-    <AssemblyName>approvaltestRefactoring</AssemblyName>
+    <RootNamespace>RefactoringKungFu</RootNamespace>
+    <AssemblyName>RefactoringKungFu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -58,6 +58,7 @@
     <Reference Include="System.Transactions" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\IDispenser.cs" />
     <Compile Include="Code\Ingredient.cs" />
     <Compile Include="Code\IngredientTypes.cs" />
     <Compile Include="Code\PastaMaker.cs" />

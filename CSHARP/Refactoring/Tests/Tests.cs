@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using ApprovalTests;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace RefactoringKungFu
 {
@@ -10,6 +11,5 @@ namespace RefactoringKungFu
         public void PastaMakerTest()
         {
         }
-
     }
 }

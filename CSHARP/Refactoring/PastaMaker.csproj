@@ -66,6 +66,7 @@
     <Compile Include="Code\Places.cs" />
     <Compile Include="Code\SauceType.cs" />
     <Compile Include="Tests\Dish.cs" />
+    <Compile Include="Tests\MockDispenser.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
